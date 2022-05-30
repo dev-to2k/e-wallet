@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="shadow-sm border rounded p-3 bg-white mt-5">
+        <form action="#" method="post">
+          <h3 class="text-uppercase text-center">Rút tiền</h3>
+          <div class="mb-3">
+            <label for="money" class="form-label">Số tiền cần rút</label>
+            <input type="number" class="form-control" id="money" />
+          </div>
+          <div class="mb-3">
+            <label for="card-number" class="form-label">Số thẻ</label>
+            <input type="number" class="form-control" id="card-number" />
+          </div>
+          <div class="mb-3">
+            <label for="expiration-date" class="form-label">Ngày hết hạn</label>
+            <input type="text" class="form-control" id="expiration-date" />
+          </div>
+          <div class="form-floating mb-3">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="note"
+              style="height: 100px"
+            ></textarea>
+            <label for="note">Ghi chú</label>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Rút tiền</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
